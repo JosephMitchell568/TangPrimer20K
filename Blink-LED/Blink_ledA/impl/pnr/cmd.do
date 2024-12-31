@@ -1,0 +1,13 @@
+-d C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\Blink_ledA\Blink_ledA\impl\gwsynthesis\Blink_ledA.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\Blink_ledA\Blink_ledA\src\Blink_ledA.cst
+-cfg C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\Blink_ledA\Blink_ledA\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

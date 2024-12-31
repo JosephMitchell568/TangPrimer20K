@@ -1,0 +1,13 @@
+-d C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\HDMI\impl\gwsynthesis\dk_video.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\HDMI\src\dk_video.cst
+-cfg C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\HDMI\impl\pnr\device.cfg
+-sdc C:\Gowin\Gowin_V1.9.9.03_Education_x64\IDE\bin\Documents\HDMI\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

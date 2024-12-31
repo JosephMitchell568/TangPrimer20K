@@ -1,0 +1,5 @@
+Test to ensure that FPGA programming is functioning correctly.
+Have Orange LED 5 be the only output LED to blink for 0.5s on and off.
+
+Followed the steps on https://wiki.sipeed.com/hardware/en/tang/tang-primer-20k/examples/led.html using Windows 11 OS.
+ - Subtle step needed to program successfully choose 'USB Debugger A/1/545/null' during Device Programming stage 

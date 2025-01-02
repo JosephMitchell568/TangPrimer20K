@@ -20,13 +20,14 @@
 // V2.0    | Caojie     | 10/30/20     | DVI IP update 
 // ----------------------------------------------------------------------------------
 // ==============0ooo===================================================0ooo===========
+// Joseph Mitchell | 1/1/2025 | Add comment for 'tmds' abreviation
 
 module video_top
 (
     input             I_clk           , //27Mhz
     input             I_rst_n         ,
     output     [3:0]  O_led           , 
-    output            O_tmds_clk_p    ,
+    output            O_tmds_clk_p    , // Transition Minimized Differential Signaling
     output            O_tmds_clk_n    ,
     output     [2:0]  O_tmds_data_p   ,//{r,g,b}
     output     [2:0]  O_tmds_data_n   

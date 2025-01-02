@@ -13,6 +13,7 @@
 // --------------------------------------------------------------------
 //   1.0   | 24-Sep-2009 | Caojie  |    initial
 // --------------------------------------------------------------------
+// Modified | 1/1/2025   | Joseph Mitchell | Add extra comments 
 
 module testpattern
 (
@@ -322,10 +323,11 @@ end
 assign Single_color = {I_single_b,I_single_g,I_single_r};
 
 //============================================================
+// Data select can either be Color bar, Net grid, gray, or single color
 assign Data_sel = (I_mode[2:0] == 3'b000) ? Color_bar		: 
                   (I_mode[2:0] == 3'b001) ? Net_grid 		: 
                   (I_mode[2:0] == 3'b010) ? Gray_d1    		: 
-				  (I_mode[2:0] == 3'b011) ? Single_color	: BLUE;
+		  (I_mode[2:0] == 3'b011) ? Single_color	: BLUE;
 
 //---------------------------------------------------
 always @(posedge I_pxl_clk or negedge I_rst_n)

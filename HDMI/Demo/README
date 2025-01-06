@@ -4,3 +4,8 @@ A demo video of it working is provided.
 HDMI Project List:
 
 1) Create a new test pattern to just write 1 unique color to the screen.
+
+Simulation Flow:
+
+I plan to start with Icarus Verilog and GTKWave to simulate the example HDMI project.
+Although, some changes need to be made to the top level module in order to do that.

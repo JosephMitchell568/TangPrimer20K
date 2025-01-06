@@ -9,3 +9,5 @@ Simulation Flow:
 
 I plan to start with Icarus Verilog and GTKWave to simulate the example HDMI project.
 Although, some changes need to be made to the top level module in order to do that.
+According to the TMDS_rPLL.ipc "Inter-Package Connection" file the output clock frequency
+ for the TMDS Phase Lock Loop is 371MHz
